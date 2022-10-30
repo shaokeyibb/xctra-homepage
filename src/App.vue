@@ -68,6 +68,11 @@
                        description="计算机图形学爱好者"
                        :is-special="true"
                        github-id="MorningOriens"></member-card>
+          <member-card name="白熊"
+                       email="1294243258@qq.com"
+                       description="南京外国语学校 2023 届学生"
+                       :is-special="true"
+                       github-id="HamsterYDS"></member-card>
           以及其他的小伙伴，也许，还将会有您...
         </div>
       </el-card>
@@ -76,7 +81,7 @@
         <template #header>
           <h2>如何加入我们</h2>
         </template>
-        加入【西财计算机鱼塘】QQ群：<a href="https://jq.qq.com/?_wv=1027&k=MDOzxKsn" target="_blank">873123415</a>
+        加入【<a href="/contact/qqgroup" target="_blank">西财计算机鱼塘</a>】QQ群
       </el-card>
     </el-main>
     <el-footer>
