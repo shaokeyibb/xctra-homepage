@@ -76,7 +76,7 @@
                        email="1294243258@qq.com"
                        description="南京外国语学校 2023 届学生"
                        :is-special="true"
-                       github-id="HamsterYDS"/>
+                       gitee-id="hamsteryds"/>
           以及其他的小伙伴，也许，还将会有您...
         </div>
       </el-card>
