@@ -9,6 +9,9 @@
       <template v-if="githubId && githubId !== ''">
         （<a :href="`https://github.com/${githubId}`" target="_blank">@{{ githubId }}</a>）
       </template>
+      <template v-else-if="giteeId && giteeId !== ''">
+        （<a :href="`https://gitee.com/${giteeId}`" target="_blank">@{{ giteeId }}</a>）
+      </template>
       <template v-if="description && description !== ''">
         <span style="color: var(--el-text-color-secondary); margin-left: 5px;"> —— {{ description }}</span>
       </template>
@@ -44,6 +47,11 @@ const props = defineProps({
     default: false
   },
   githubId: {
+    type: String,
+    required: false,
+    default: ""
+  },
+  giteeId: {
     type: String,
     required: false,
     default: ""
