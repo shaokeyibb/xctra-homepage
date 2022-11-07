@@ -1,8 +1,8 @@
 <template>
   <!--Yeah there's just no any sub components here cause I'm lazy.-->
   <el-container>
-    <el-header>
-      <h1>The Homepage of XCTRA —— XAUFE Computer Technology Research Association</h1>
+    <el-header id="header">
+      <h1 id="title">The Homepage of XCTRA —— XAUFE Computer Technology Research Association</h1>
     </el-header>
     <el-main>
       <img src="./assets/misbrands.png" alt="Misbrands Logo" style="max-width: 100%; max-height: 100%"/>
@@ -95,6 +95,11 @@
 
 <script setup>
 import MemberCard from "./components/MemberCard.vue";
+import {onMounted} from "vue";
+
+onMounted(() => {
+  document.getElementById("header").style.height = document.getElementById("title").clientHeight + "px"
+});
 </script>
 
 <style scoped>
