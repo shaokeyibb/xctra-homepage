@@ -39,11 +39,11 @@
           <member-card name="贺兰星辰"
                        email="shaokeyibb@126.com"
                        description="XCTRA 创始人，开发者"
-                       github-id="shaokeyibb"></member-card>
+                       github-id="shaokeyibb"/>
           <member-card name="陈伯硕"
                        email="1085751402@qq.com"
-                       description="西安财经大学 计算机科学与技术专业 2018 级毕业生；杭州电子科技大学计算机科学技术专业 2022 级研究生"
-                       github-id="chenboshuo"></member-card>
+                       description="西安财经大学 计算机科学与技术专业 2018 级毕业生；杭州电子科技大学 计算机科学技术专业 2022 级研究生"
+                       github-id="chenboshuo"/>
           <member-card name="程驰"
                        email="3296661857@qq.com"
                        description="西安财经大学 计算机科学与技术专业 2019 级学生"
@@ -52,27 +52,27 @@
                        email="2014243824@qq.com"
                        description="鲁东大学 人工智能专业 2022 级学生"
                        :is-special="true"
-                       github-id="AnyMoonS"></member-card>
+                       github-id="AnyMoonS"/>
           <member-card name="冰星"
                        email="625924077@qq.com"
                        description="某 211 高校 2019 级学生"
                        :is-special="true"
-                       github-id="LovesAsuna"></member-card>
+                       github-id="LovesAsuna"/>
           <member-card name="蓝猫"
                        email="657399256@qq.com"
                        description="复旦大学 2020 级学生"
                        :is-special="true"
-                       github-id="ABlueCat123"></member-card>
-          <member-card name="one"
+                       github-id="ABlueCat123"/>
+          <member-card name="早上"
                        email="875899749@qq.com"
                        description="计算机图形学爱好者"
                        :is-special="true"
-                       github-id="MorningOriens"></member-card>
+                       github-id="MorningOriens"/>
           <member-card name="白熊"
                        email="1294243258@qq.com"
                        description="南京外国语学校 2023 届学生"
                        :is-special="true"
-                       github-id="HamsterYDS"></member-card>
+                       github-id="HamsterYDS"/>
           以及其他的小伙伴，也许，还将会有您...
         </div>
       </el-card>
