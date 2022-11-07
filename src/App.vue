@@ -47,7 +47,11 @@
           <member-card name="程驰"
                        email="3296661857@qq.com"
                        description="西安财经大学 计算机科学与技术专业 2019 级学生"
-                       github-id="cc200723"></member-card>
+                       github-id="cc200723"/>
+          <member-card name="Xue Wenchao"
+                       email="1491224820@qq.com"
+                       description="西安财经大学 软件工程专业 2019 级学生"
+                       github-id="axzed"/>
           <member-card name="暗影月赎"
                        email="2014243824@qq.com"
                        description="鲁东大学 人工智能专业 2022 级学生"
