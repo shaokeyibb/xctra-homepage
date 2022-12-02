@@ -29,6 +29,8 @@
         <a href="https://hole.xctra.cn">西财树洞</a> —— 匿名贴吧服务
         <br/><br/>
         <a href="https://blog.xctra.cn">XCTRA 博客</a> —— 技术交流与讨论
+        <br/><br/>
+        <a href="https://calendar.xctra.cn">西财校历</a> —— 西安财经大学 iCalendar 校历
       </el-card>
       <el-divider/>
       <el-card>
